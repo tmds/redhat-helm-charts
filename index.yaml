@@ -2,31 +2,21 @@ apiVersion: v1
 entries:
   dotnet:
   - apiVersion: v2
-    created: "2023-11-22T08:21:48.309525654+01:00"
+    created: "2023-11-22T08:47:35.260070795+01:00"
     description: A Helm chart to build and deploy .NET applications
-    digest: 64fd90f07ee0ce4bac4e7827f3f3b0be8fc4d080810d4c49c8caafb71ef76de3
+    digest: 7bbb445713a959fe983221a5797b0614eac69e2b469e224688e51d65c7b25e47
+    icon: data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDU2IiBoZWlnaHQ9IjQ1NiIgdmlld0JveD0iMCAwIDQ1NiA0NTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0NTYiIGhlaWdodD0iNDU2IiBmaWxsPSIjNTEyQkQ0Ii8+CjxwYXRoIGQ9Ik04MS4yNzM4IDI5MS4zMzNDNzguMDQ5NiAyOTEuMzMzIDc1LjMwOSAyOTAuMjU5IDczLjA1MiAyODguMTFDNzAuNzk1IDI4NS45MDYgNjkuNjY2NSAyODMuMjg5IDY5LjY2NjUgMjgwLjI1OUM2OS42NjY1IDI3Ny4xNzMgNzAuNzk1IDI3NC41MjkgNzMuMDUyIDI3Mi4zMjVDNzUuMzA5IDI3MC4xMjEgNzguMDQ5NiAyNjkuMDE5IDgxLjI3MzggMjY5LjAxOUM4NC41NTE4IDI2OS4wMTkgODcuMzE5MyAyNzAuMTIxIDg5LjU3NjMgMjcyLjMyNUM5MS44ODcgMjc0LjUyOSA5My4wNDI0IDI3Ny4xNzMgOTMuMDQyNCAyODAuMjU5QzkzLjA0MjQgMjgzLjI4OSA5MS44ODcgMjg1LjkwNiA4OS41NzYzIDI4OC4xMUM4Ny4zMTkzIDI5MC4yNTkgODQuNTUxOCAyOTEuMzMzIDgxLjI3MzggMjkxLjMzM1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0yMTAuMTY3IDI4OS41MTVIMTg5LjIwOUwxMzMuOTk0IDIwMi40MDZDMTMyLjU5NyAyMDAuMjAyIDEzMS40NDEgMTk3LjkxNSAxMzAuNTI4IDE5NS41NDZIMTMwLjA0NEMxMzAuNDc0IDE5OC4wODEgMTMwLjY4OSAyMDMuNTA4IDEzMC42ODkgMjExLjgyN1YyODkuNTE1SDExMi4xNDlWMTcxSDEzNC40NzdMMTg3LjgzOSAyNTYuMDQzQzE5MC4wOTYgMjU5LjU3IDE5MS41NDcgMjYxLjk5NCAxOTIuMTkyIDI2My4zMTZIMTkyLjUxNEMxOTEuOTc3IDI2MC4xNzYgMTkxLjcwOCAyNTQuODU5IDE5MS43MDggMjQ3LjM2NVYxNzFIMjEwLjE2N1YyODkuNTE1WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTMwMC40NDkgMjg5LjUxNUgyMzUuNTYxVjE3MUgyOTcuODdWMTg3LjY5NUgyNTQuNzQ2VjIyMS4yNDlIMjk0LjQ4NVYyMzcuODYxSDI1NC43NDZWMjcyLjkwM0gzMDAuNDQ5VjI4OS41MTVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMzkyLjY2NyAxODcuNjk1SDM1OS40NTdWMjg5LjUxNUgzNDAuMjcyVjE4Ny42OTVIMzA3LjE0M1YxNzFIMzkyLjY2N1YxODcuNjk1WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==
     keywords:
     - runtimes
     - dotnet
     name: dotnet
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/dotnet-0.0.2.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/dotnet-0.0.2.tgz
     version: 0.0.2
-  - apiVersion: v2
-    created: "2023-11-22T08:21:48.308730781+01:00"
-    description: A Helm chart to build and deploy .NET applications
-    digest: cd6f9d75d35e8a4f09695047aec97548a5404a1fb392ac9ad9f7e94194d1db34
-    keywords:
-    - runtimes
-    - dotnet
-    name: dotnet
-    urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/dotnet-0.0.1.tgz
-    version: 0.0.1
   ibm-b2bi-prod:
   - apiVersion: v2
     appVersion: 6.1.0.0
-    created: "2023-11-22T08:21:48.330469361+01:00"
+    created: "2023-11-22T08:47:35.279592067+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -60,12 +50,12 @@ entries:
     name: ibm-b2bi-prod
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-b2bi-prod-2.0.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-b2bi-prod-2.0.0.tgz
     version: 2.0.0
   ibm-cpq-prod:
   - apiVersion: v2
     appVersion: 10.0.0.22
-    created: "2023-11-22T08:21:48.39491349+01:00"
+    created: "2023-11-22T08:47:35.348193087+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -112,11 +102,11 @@ entries:
     - name: IBM
     name: ibm-cpq-prod
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-cpq-prod-4.0.4.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-cpq-prod-4.0.4.tgz
     version: 4.0.4
   - apiVersion: v2
     appVersion: 10.0.0.20
-    created: "2023-11-22T08:21:48.382213168+01:00"
+    created: "2023-11-22T08:47:35.334501679+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -163,11 +153,11 @@ entries:
     - name: IBM
     name: ibm-cpq-prod
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-cpq-prod-4.0.3.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-cpq-prod-4.0.3.tgz
     version: 4.0.3
   - apiVersion: v2
     appVersion: 10.0.0.15
-    created: "2023-11-22T08:21:48.370161803+01:00"
+    created: "2023-11-22T08:47:35.320846454+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -214,11 +204,11 @@ entries:
     - name: IBM
     name: ibm-cpq-prod
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-cpq-prod-4.0.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-cpq-prod-4.0.1.tgz
     version: 4.0.1
   - apiVersion: v2
     appVersion: 10.0.0.12
-    created: "2023-11-22T08:21:48.35701767+01:00"
+    created: "2023-11-22T08:47:35.307540088+01:00"
     description: IBM Sterling Configure, Price, Quote (CPQ) solution enables you to
       quickly configure, price, quote and order the right products and services. To
       sell competitively in today’s multichannel environment, organizations need a
@@ -259,11 +249,11 @@ entries:
     - name: IBM
     name: ibm-cpq-prod
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-cpq-prod-4.0.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-cpq-prod-4.0.0.tgz
     version: 4.0.0
   - apiVersion: v2
     appVersion: 10.0.0.10
-    created: "2023-11-22T08:21:48.344284257+01:00"
+    created: "2023-11-22T08:47:35.29401845+01:00"
     description: IBM Sterling Configure, Price, Quote (CPQ) solution enables you to
       quickly configure, price, quote and order the right products and services. To
       sell competitively in today’s multichannel environment, organizations need a
@@ -304,12 +294,12 @@ entries:
     - name: IBM
     name: ibm-cpq-prod
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-cpq-prod-3.1.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-cpq-prod-3.1.0.tgz
     version: 3.1.0
   ibm-mongodb-enterprise-helm:
   - apiVersion: v2
     appVersion: 4.4.0
-    created: "2023-11-22T08:21:48.396238602+01:00"
+    created: "2023-11-22T08:47:35.349617092+01:00"
     description: 'IBM Helm Chart to deploy MongoDB Enterprise on OpenShift Container
       Platform hosted on IBM Power systems.  Documentation For additional details
       regarding install parameters see here https://docs.mongodb.com/manual/administration/install-enterprise/  License
@@ -327,11 +317,11 @@ entries:
     - name: IBM
     name: ibm-mongodb-enterprise-helm
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-mongodb-enterprise-helm-0.3.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-mongodb-enterprise-helm-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 4.4.0
-    created: "2023-11-22T08:21:48.395583596+01:00"
+    created: "2023-11-22T08:47:35.348912354+01:00"
     description: 'IBM Helm Chart to deploy MongoDB Enterprise on OpenShift Container
       Platform hosted on IBM Power systems.  Documentation For additional details
       regarding install parameters see here https://docs.mongodb.com/manual/administration/install-enterprise/  License
@@ -349,12 +339,12 @@ entries:
     - name: IBM
     name: ibm-mongodb-enterprise-helm
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-mongodb-enterprise-helm-0.2.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-mongodb-enterprise-helm-0.2.0.tgz
     version: 0.2.0
   ibm-object-storage-plugin:
   - apiVersion: v2
     appVersion: 2.0.7
-    created: "2023-11-22T08:21:48.399350154+01:00"
+    created: "2023-11-22T08:47:35.353320156+01:00"
     description: 'Chart for deploying ibmcloud object storage plugin. IBM Cloud Object
       Storage is persistent, highly available storage that you can mount to apps that
       run in a Kubernetes cluster by using the IBM Cloud Object Storage plug-in. The
@@ -377,11 +367,11 @@ entries:
       name: IBM
     name: ibm-object-storage-plugin
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-object-storage-plugin-2.0.7.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-object-storage-plugin-2.0.7.tgz
     version: 2.0.7
   - apiVersion: v2
     appVersion: 2.0.4
-    created: "2023-11-22T08:21:48.398308594+01:00"
+    created: "2023-11-22T08:47:35.352128606+01:00"
     description: 'Chart for deploying ibmcloud object storage plugin. IBM Cloud Object
       Storage is persistent, highly available storage that you can mount to apps that
       run in a Kubernetes cluster by using the IBM Cloud Object Storage plug-in. The
@@ -404,11 +394,11 @@ entries:
       name: IBM
     name: ibm-object-storage-plugin
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-object-storage-plugin-2.0.4.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-object-storage-plugin-2.0.4.tgz
     version: 2.0.4
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-11-22T08:21:48.397243151+01:00"
+    created: "2023-11-22T08:47:35.350794938+01:00"
     description: 'Chart for deploying ibmcloud object storage plugin. IBM Cloud Object
       Storage is persistent, highly available storage that you can mount to apps that
       run in a Kubernetes cluster by using the IBM Cloud Object Storage plug-in. The
@@ -431,12 +421,12 @@ entries:
       name: IBM
     name: ibm-object-storage-plugin
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-object-storage-plugin-2.0.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-object-storage-plugin-2.0.0.tgz
     version: 2.0.0
   ibm-oms-ent-prod:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2023-11-22T08:21:48.434184412+01:00"
+    created: "2023-11-22T08:47:35.391864518+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -471,11 +461,11 @@ entries:
     name: ibm-oms-ent-prod
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-oms-ent-prod-6.0.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-oms-ent-prod-6.0.0.tgz
     version: 6.0.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2023-11-22T08:21:48.425617613+01:00"
+    created: "2023-11-22T08:47:35.382273987+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -510,11 +500,11 @@ entries:
     name: ibm-oms-ent-prod
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-oms-ent-prod-5.1.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-oms-ent-prod-5.1.1.tgz
     version: 5.1.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2023-11-22T08:21:48.416618541+01:00"
+    created: "2023-11-22T08:47:35.372423885+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -549,11 +539,11 @@ entries:
     name: ibm-oms-ent-prod
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-oms-ent-prod-5.1.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-oms-ent-prod-5.1.0.tgz
     version: 5.1.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2023-11-22T08:21:48.407866499+01:00"
+    created: "2023-11-22T08:47:35.362840744+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -587,12 +577,12 @@ entries:
     name: ibm-oms-ent-prod
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-oms-ent-prod-5.0.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-oms-ent-prod-5.0.0.tgz
     version: 5.0.0
   ibm-oms-pro-prod:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2023-11-22T08:21:48.471085174+01:00"
+    created: "2023-11-22T08:47:35.426943271+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -627,11 +617,11 @@ entries:
     name: ibm-oms-pro-prod
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-oms-pro-prod-6.0.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-oms-pro-prod-6.0.0.tgz
     version: 6.0.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2023-11-22T08:21:48.461849578+01:00"
+    created: "2023-11-22T08:47:35.41783445+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -666,11 +656,11 @@ entries:
     name: ibm-oms-pro-prod
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-oms-pro-prod-5.1.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-oms-pro-prod-5.1.1.tgz
     version: 5.1.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2023-11-22T08:21:48.452428523+01:00"
+    created: "2023-11-22T08:47:35.408858949+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -705,11 +695,11 @@ entries:
     name: ibm-oms-pro-prod
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-oms-pro-prod-5.1.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-oms-pro-prod-5.1.0.tgz
     version: 5.1.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2023-11-22T08:21:48.443466774+01:00"
+    created: "2023-11-22T08:47:35.40056452+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -743,12 +733,12 @@ entries:
     name: ibm-oms-pro-prod
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-oms-pro-prod-5.0.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-oms-pro-prod-5.0.0.tgz
     version: 5.0.0
   ibm-operator-catalog-enablement:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-11-22T08:21:48.472695682+01:00"
+    created: "2023-11-22T08:47:35.428556824+01:00"
     description: 'IBM Operator Catalog enablement deploys custom CatalogSources and
       ImageContentSourcePolicy  resources to enable consistent Catalog experience
       to deploy and maintain IBM products.  The operators are publically available,
@@ -773,11 +763,11 @@ entries:
     name: ibm-operator-catalog-enablement
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-operator-catalog-enablement-1.1.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-operator-catalog-enablement-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-22T08:21:48.47188041+01:00"
+    created: "2023-11-22T08:47:35.427748+01:00"
     description: 'IBM Operator Catalog enablement deploys custom CatalogSources for
       operators available to deploy and maintain IBM products.  The operators are
       publically available, but products they install may require purchase and entitlement
@@ -800,12 +790,12 @@ entries:
     name: ibm-operator-catalog-enablement
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-operator-catalog-enablement-1.0.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-operator-catalog-enablement-1.0.0.tgz
     version: 1.0.0
   ibm-seas:
   - apiVersion: v2
     appVersion: 6.0.3.0.01plus
-    created: "2023-11-22T08:21:48.486755913+01:00"
+    created: "2023-11-22T08:47:35.441668761+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -832,11 +822,11 @@ entries:
     name: ibm-seas
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-seas-1.2.2.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-seas-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v2
     appVersion: 6.0.3.0.01
-    created: "2023-11-22T08:21:48.483030877+01:00"
+    created: "2023-11-22T08:47:35.438668243+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -863,11 +853,11 @@ entries:
     name: ibm-seas
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-seas-1.2.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-seas-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v2
     appVersion: 6.0.3.0
-    created: "2023-11-22T08:21:48.479789702+01:00"
+    created: "2023-11-22T08:47:35.435069497+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -894,11 +884,11 @@ entries:
     name: ibm-seas
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-seas-1.2.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-seas-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
     appVersion: 6.0.2.0.03
-    created: "2023-11-22T08:21:48.475973736+01:00"
+    created: "2023-11-22T08:47:35.431938206+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -925,12 +915,12 @@ entries:
     name: ibm-seas
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-seas-1.1.3.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-seas-1.1.3.tgz
     version: 1.1.3
   ibm-sfg-prod:
   - apiVersion: v2
     appVersion: 6.1.0.0
-    created: "2023-11-22T08:21:48.504730192+01:00"
+    created: "2023-11-22T08:47:35.459335662+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -963,12 +953,12 @@ entries:
     name: ibm-sfg-prod
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-sfg-prod-2.0.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-sfg-prod-2.0.0.tgz
     version: 2.0.0
   ibm-ssp-cm:
   - apiVersion: v2
     appVersion: 6.0.3.0.01plus
-    created: "2023-11-22T08:21:48.518432912+01:00"
+    created: "2023-11-22T08:47:35.473203189+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -995,11 +985,11 @@ entries:
     name: ibm-ssp-cm
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-cm-1.2.2.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-cm-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v2
     appVersion: 6.0.3.0.01
-    created: "2023-11-22T08:21:48.514439057+01:00"
+    created: "2023-11-22T08:47:35.469096919+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1026,11 +1016,11 @@ entries:
     name: ibm-ssp-cm
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-cm-1.2.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-cm-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v2
     appVersion: 6.0.3.0
-    created: "2023-11-22T08:21:48.511170725+01:00"
+    created: "2023-11-22T08:47:35.465891915+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1057,11 +1047,11 @@ entries:
     name: ibm-ssp-cm
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-cm-1.2.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-cm-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
     appVersion: 6.0.2.0.03
-    created: "2023-11-22T08:21:48.507892926+01:00"
+    created: "2023-11-22T08:47:35.46256321+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1088,12 +1078,12 @@ entries:
     name: ibm-ssp-cm
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-cm-1.1.3.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-cm-1.1.3.tgz
     version: 1.1.3
   ibm-ssp-engine:
   - apiVersion: v2
     appVersion: 6.0.3.0.01plus
-    created: "2023-11-22T08:21:48.532889833+01:00"
+    created: "2023-11-22T08:47:35.487463928+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1120,11 +1110,11 @@ entries:
     name: ibm-ssp-engine
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-engine-1.2.2.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-engine-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v2
     appVersion: 6.0.3.0.01
-    created: "2023-11-22T08:21:48.529158766+01:00"
+    created: "2023-11-22T08:47:35.483941222+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1151,11 +1141,11 @@ entries:
     name: ibm-ssp-engine
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-engine-1.2.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-engine-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v2
     appVersion: 6.0.3.0
-    created: "2023-11-22T08:21:48.525977439+01:00"
+    created: "2023-11-22T08:47:35.480659399+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1182,11 +1172,11 @@ entries:
     name: ibm-ssp-engine
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-engine-1.2.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-engine-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
     appVersion: 6.0.2.0.03
-    created: "2023-11-22T08:21:48.521964824+01:00"
+    created: "2023-11-22T08:47:35.476859283+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1213,12 +1203,12 @@ entries:
     name: ibm-ssp-engine
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-engine-1.1.3.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-engine-1.1.3.tgz
     version: 1.1.3
   ibm-ssp-ps:
   - apiVersion: v2
     appVersion: 6.0.3.0.01plus
-    created: "2023-11-22T08:21:48.545470716+01:00"
+    created: "2023-11-22T08:47:35.5008344+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1245,11 +1235,11 @@ entries:
     name: ibm-ssp-ps
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-ps-1.2.2.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-ps-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v2
     appVersion: 6.0.3.0.01
-    created: "2023-11-22T08:21:48.542449269+01:00"
+    created: "2023-11-22T08:47:35.497821655+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1276,11 +1266,11 @@ entries:
     name: ibm-ssp-ps
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-ps-1.2.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-ps-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v2
     appVersion: 6.0.3.0
-    created: "2023-11-22T08:21:48.538954814+01:00"
+    created: "2023-11-22T08:47:35.494753665+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1307,11 +1297,11 @@ entries:
     name: ibm-ssp-ps
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-ps-1.2.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-ps-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
     appVersion: 6.0.2.0.03
-    created: "2023-11-22T08:21:48.535922823+01:00"
+    created: "2023-11-22T08:47:35.491128192+01:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -1338,11 +1328,11 @@ entries:
     name: ibm-ssp-ps
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/ibm-ssp-ps-1.1.3.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/ibm-ssp-ps-1.1.3.tgz
     version: 1.1.3
   nodejs:
   - apiVersion: v2
-    created: "2023-11-22T08:21:48.545937632+01:00"
+    created: "2023-11-22T08:47:35.501349645+01:00"
     description: A Helm chart to build and deploy Node.js applications
     digest: eeb75da3ec2e4d63fcc69aaa51d5d5a6fe0573414ac8d7341f73faed7c439ac4
     keywords:
@@ -1350,42 +1340,42 @@ entries:
     - nodejs
     name: nodejs
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/nodejs-0.0.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/nodejs-0.0.1.tgz
     version: 0.0.1
   nodejs-ex-k:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-22T08:21:48.546740449+01:00"
+    created: "2023-11-22T08:47:35.50269118+01:00"
     description: A Helm chart for Kubernetes
     digest: 4340070f6b0d04ebb2ea4a10046b89c9f1706c62ae67bdc247ff6a59b9d035ec
     name: nodejs-ex-k
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/nodejs-ex-k-0.2.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/nodejs-ex-k-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-22T08:21:48.546465218+01:00"
+    created: "2023-11-22T08:47:35.502406218+01:00"
     description: A Helm chart for Kubernetes
     digest: 9f8eca455f8379baddd6ab61bd5517373514bb99bedbbddffb98ad88ac9841cc
     name: nodejs-ex-k
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/nodejs-ex-k-0.2.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/nodejs-ex-k-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-22T08:21:48.546185413+01:00"
+    created: "2023-11-22T08:47:35.501976036+01:00"
     description: A Helm chart for Kubernetes
     digest: 64b36fee719567e2aae8cb6186ba02a56dc62a90df71af7f90cc1d9d2cd1fb25
     name: nodejs-ex-k
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/nodejs-ex-k-0.1.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/nodejs-ex-k-0.1.1.tgz
     version: 0.1.1
   quarkus:
   - apiVersion: v2
-    created: "2023-11-22T08:21:48.548873399+01:00"
+    created: "2023-11-22T08:47:35.504222069+01:00"
     description: A Helm chart to build and deploy Quarkus applications
     digest: 6d8f1b945c037f1f252e532430c21ef723bc11fab369ef26d316fff69c4ffade
     keywords:
@@ -1393,10 +1383,10 @@ entries:
     - quarkus
     name: quarkus
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/quarkus-0.0.3.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/quarkus-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v2
-    created: "2023-11-22T08:21:48.547900046+01:00"
+    created: "2023-11-22T08:47:35.503702613+01:00"
     description: A Helm chart to build and deploy Quarkus applications
     digest: 28a4c48bb9882edf04e916a643ff5936d72e60cc033e2e359b730b01b605ffac
     keywords:
@@ -1404,10 +1394,10 @@ entries:
     - quarkus
     name: quarkus
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/quarkus-0.0.2.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/quarkus-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
-    created: "2023-11-22T08:21:48.54722011+01:00"
+    created: "2023-11-22T08:47:35.503173318+01:00"
     description: A Helm chart to build and deploy Quarkus applications
     digest: dfa7f44698fc820e84f349929cd81c2ddbafb8d42e723df770e6ae7e72657b82
     keywords:
@@ -1415,12 +1405,12 @@ entries:
     - quarkus
     name: quarkus
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/quarkus-0.0.1.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/quarkus-0.0.1.tgz
     version: 0.0.1
   wildfly:
   - apiVersion: v2
     appVersion: "24.0"
-    created: "2023-11-22T08:21:48.5502891+01:00"
+    created: "2023-11-22T08:47:35.505542826+01:00"
     dependencies:
     - name: wildfly-common
       repository: file://../wildfly-common
@@ -1435,11 +1425,11 @@ entries:
     name: wildfly
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/wildfly-1.4.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/wildfly-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v2
     appVersion: "23.0"
-    created: "2023-11-22T08:21:48.549618392+01:00"
+    created: "2023-11-22T08:47:35.504899848+01:00"
     dependencies:
     - name: wildfly-common
       repository: file://../wildfly-common
@@ -1454,6 +1444,6 @@ entries:
     name: wildfly
     type: application
     urls:
-    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80/charts/wildfly-1.3.0.tgz
+    - https://raw.githubusercontent.com/tmds/redhat-helm-charts/try_dotnet_80_3/charts/wildfly-1.3.0.tgz
     version: 1.3.0
-generated: "2023-11-22T08:21:48.307577893+01:00"
+generated: "2023-11-22T08:47:35.259163926+01:00"
